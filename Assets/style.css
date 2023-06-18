@@ -1,0 +1,115 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set some default styles for the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+  }
+  
+  button[type="submit"] {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  /* Main styles */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #current-weather-info {
+    margin-top: 10px;
+  }
+  
+  #current-weather-info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  #current-weather-info p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  #weather-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  #forecast-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .forecast-card {
+    flex-basis: calc(20% - 10px);
+    margin: 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  #search-history {
+    margin-top: 20px;
+  }
+  
+  .history-item {
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .history-item:hover {
+    background-color: #ccc;
+  }  
